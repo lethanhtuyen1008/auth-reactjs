@@ -1,13 +1,13 @@
 {
-  "name": "@devblock/react-auth",
+  "name": "@technology-universes-olution/react-auth",
   "version": "0.0.1",
-  "description": "DevBlock's",
+  "description": "Technology Universes Solution",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc"
   },
-  "author": "Tai Bui Huu",
+  "author": "Le Thanh Tuyen",
   "license": "ISC",
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",

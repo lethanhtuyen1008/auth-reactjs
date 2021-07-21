@@ -21,7 +21,7 @@ $ npm install ssh://git@bitbucket.org/vinasource/wam-frontend.git#{commit_hash}
 Basic usage
 
 ```jsx
-import { AuthContext, CognitoAuthProvider } from '@devblock/react-auth';
+import { AuthContext, CognitoAuthProvider } from '@technology-universes-olution/react-auth';
 
 const authProvider = new CognitoAuthProvider({});
 
@@ -51,7 +51,7 @@ import {
   BaseAuthProvider,
   SignUpRequest,
   SignUpResponse,
-} from '@devblock/react-auth';
+} from '@technology-universes-olution/react-auth';
 
 export class CustomAuthProvider extends BaseAuthProvider {
   signUp(request: SignUpRequest): Promise<SignUpResponse> {
